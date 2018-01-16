@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="floaredecolt.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>G.P.P. "Floare de Colt" Beius</title>
+  <link rel="shortcut icon" type="image/jpg" href="gradinita.jpg" />
+  <br>
+  
+  <nav id="topmenu">
+		<ul>
+			<li><a href="Floare.html"><span class="glyphicon glyphicon-home"></span>Acasa</a></li>
+			<li><a href="Istoric.html"><span class="glyphicon glyphicon-hourglass"></span>Scurt istoric</a></li>
+			<li><a href="desprenoi.html"><span class="glyphicon glyphicon-pencil"></span>Despre noi</a></li>
+			<li><a href="poze.html"><span class="glyphicon glyphicon-camera"></span>Poze</a></li>
+			<li><a href="proiecte.html"><span class="glyphicon glyphicon-file"></span>Proiecte</a></li>
+			<li><a href="contact.html"><span class="glyphicon glyphicon-phone"></span>Contact</a></li>
+		</ul>
+	</nav>
+
+</head>
+<br>
+	<body>
+		<div id="main">
+			<table>
+				<br>
+				<th colspan="2"><h2 style="color:black">Poze gradinita</h2></th>
+
+				<tr>
+					<td><img src="colectiv.jpg" title="gradinita" alt="gradinita colectiv"/></td>
+					<td><img src="gradinita.jpg" title="gradinita" alt="gradinita"></td>
+					
+				</tr>
+
+				<tr>
+					<td><img src="flori.jpg" title="gradinita flori" alt="gradinita exterior"/></td>
+					<td><img src="intrare.jpg" title="gradinita intrare" alt="gradinita intrare"></td>
+					
+				</tr>
+                <tr>
+                	<td><img src="baie.jpg" title="gradinita baie" alt="gradinita baie"/></td>
+                	<td><img src="salademese.jpg" title="sala de mese" alt="sala de mese" /></td>
+                </tr>
+
+				<tr>
+					<td><img src="salademese2.jpg" title="salade mese 2" alt="sala de mese"/></td>
+					<td><img src="baie1.jpg" title="gradinita baie" alt="gradinita baie"/></td>
+				</tr>
+				
+			</table>
+
+			<footer id="thefooter">
+				&copy; Site created by Andrei Indries. e-mail: indriesandrei@yahoo.co.uk
+			</footer>
+
+	    </div>
+
+	    	<script src="jquery-3.1.1.min.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function() {
+	   		$("img").on("click", function() {
+	   			$(this).animate({"width": "600px", "height": "600px"}, 1000);
+	   		});
+
+	   		$("img").on("mouseout", function() {
+	   			$(this).animate({"width": "400px", "height": "300px"}, 1000);
+	   		});
+
+	   });
+
+
+		
+	</script>
+	</body>
+</html>
